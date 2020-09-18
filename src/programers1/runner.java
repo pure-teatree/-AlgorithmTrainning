@@ -1,8 +1,6 @@
 package programers1;
 
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Iterator;
 
 /*
  * 수많은 마라톤 선수들이 마라톤에 참여하였습니다. 단 한 명의 선수를 제외하고는 모든 선수가 마라톤을 완주하였습니다.
@@ -17,21 +15,23 @@ completion의 길이는 participant의 길이보다 1 작습니다.
 참가자 중에는 동명이인이 있을 수 있습니다.
  */
 public class runner {
-	
 
 	public static void main(String[] args) {
-		
-		String[] participant = {"mislav", "stanko", "mislav", "ana"};
-		String[] completion = {"stanko", "ana", "mislav"};
-		HashSet<String> partSet = new HashSet<>(Arrays.asList(participant));
-		System.out.println(partSet);
-//	    HashSet<String> comSet = new HashSet<>(Arrays.asList(completion));
-//	    partSet.removeAll(comSet); //차집합
-//	    String answer = partSet.iterator().next();
-//	    System.out.println(answer);
-	   
 
-
-
+		String[] participant = { "leo", "kiki", "eden" };//eden kiki leo
+		String[] completion = { "eden", "kiki" };//eden kiki
+		Arrays.sort(participant);
+		Arrays.sort(completion);
+		String answer = null;
+		int i = 0;
+		for (i = 0; i < completion.length; i++) {// 3
+			if (!participant[i].equals(completion[i])) {
+				answer = participant[i];
+				System.out.println(answer);//없음.
+			}
+		}
+		System.out.println(i);//2
+		answer = participant[i];
+		System.out.println(answer);//leo
 	}
 }
