@@ -58,7 +58,6 @@
   ## 1-1. 기초 개념
   
   ### 최대공약수
-  
   - 최대공약수 : 공약수 중 가장 큰 공약수. 두 수를 같은 수로 나누었을 때 나머지가 0인 값 중에 가장 큰 수
   - 최대공약수의 약수 = 공약수
   - 서로소 : 공약수가 1뿐인 2개 이상의 자연수, 최대공약수가 1
@@ -72,5 +71,8 @@
   - 두수의 곱/최대공약수
   - [출처] : <https://ko.wikipedia.org/wiki/%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98>
   
-  
+  ### 피보나치 수
+  - 수학에서, 피보나치 수(영어: Fibonacci numbers)는 첫째 및 둘째 항이 1이며 그 뒤의 모든 항은 바로 앞 두 항의 합인 수열이다. 처음 여섯 항은 각각 1, 1, 2, 3, 5, 8이다. 편의상 	0번째 항을 0으로 두기도 한다. <br>
+  <img width="632" alt="피보나치" src="https://user-images.githubusercontent.com/66557175/95859208-3547fe00-0d99-11eb-9284-ca28593882ca.PNG"><br>
+  - 알고리즘 풀이 참고 : <https://shoark7.github.io/programming/algorithm/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%84-%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94-5%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95>
   
